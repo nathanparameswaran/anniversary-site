@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#question-screen, #anniversary-screen {
+  margin-top: 100px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-left: 10px;
+  cursor: pointer;
+  background-color: pink;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: hotpink;
+  color: white;
+}
+
+#error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+.gallery {
+  margin-top: 30px;
+}
+
+.gallery img {
+  width: 200px;
+  height: auto;
+  margin: 10px;
+  border-radius: 10px;
+}
